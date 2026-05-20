@@ -1,0 +1,29 @@
+{
+  "name": "domain-flipper",
+  "version": "1.0.0",
+  "description": "Autonomous brandable domain name finder — generates, checks availability, scores brandability, ranks candidates daily.",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "domain-flipper": "./src/cli.mjs"
+  },
+  "scripts": {
+    "start": "node src/cli.mjs",
+    "daily": "node src/cli.mjs --count 200 --report",
+    "generate-only": "node src/cli.mjs --no-check",
+    "score-only": "node src/cli.mjs --score <name>"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.34.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Lee Snedaker",
+  "license": "MIT",
+  "homepage": "https://github.com/snedco/domain-flipper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snedco/domain-flipper.git"
+  }
+}

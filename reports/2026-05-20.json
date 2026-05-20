@@ -1,0 +1,808 @@
+{
+  "generated_at": "2026-05-20T05:58:58.749Z",
+  "theme": "general",
+  "total_candidates": 50,
+  "available": 0,
+  "results": [
+    {
+      "name": "veloon",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length"
+    },
+    {
+      "name": "vanaly",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length"
+    },
+    {
+      "name": "kinaon",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length"
+    },
+    {
+      "name": "soraly",
+      "score": 72,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length"
+    },
+    {
+      "name": "soraon",
+      "score": 72,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length"
+    },
+    {
+      "name": "fanous",
+      "score": 72,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length"
+    },
+    {
+      "name": "nerai",
+      "score": 70,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 5,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length"
+    },
+    {
+      "name": "tanio",
+      "score": 67,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 5,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length"
+    },
+    {
+      "name": "nonova",
+      "score": 63,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length"
+    },
+    {
+      "name": "nofano",
+      "score": 63,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length"
+    },
+    {
+      "name": "noroxa",
+      "score": 63,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length"
+    },
+    {
+      "name": "luix",
+      "score": 63,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 10,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix"
+    },
+    {
+      "name": "kalfano",
+      "score": 63,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length"
+    },
+    {
+      "name": "zomira",
+      "score": 63,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length"
+    },
+    {
+      "name": "rifano",
+      "score": 63,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length"
+    },
+    {
+      "name": "mosora",
+      "score": 63,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length"
+    },
+    {
+      "name": "vexvana",
+      "score": 63,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length"
+    },
+    {
+      "name": "nervelo",
+      "score": 63,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length"
+    },
+    {
+      "name": "lusora",
+      "score": 63,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length"
+    },
+    {
+      "name": "zosora",
+      "score": 63,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length"
+    },
+    {
+      "name": "nous",
+      "score": 63,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 10,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix"
+    },
+    {
+      "name": "rius",
+      "score": 63,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 10,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix"
+    },
+    {
+      "name": "kalvelo",
+      "score": 63,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length"
+    },
+    {
+      "name": "zokina",
+      "score": 63,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length"
+    },
+    {
+      "name": "movira",
+      "score": 63,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length"
+    },
+    {
+      "name": "vexnova",
+      "score": 63,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length"
+    },
+    {
+      "name": "tanmira",
+      "score": 60,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length"
+    },
+    {
+      "name": "novaai",
+      "score": 60,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 0,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length"
+    },
+    {
+      "name": "silvana",
+      "score": 60,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length"
+    },
+    {
+      "name": "vexsoraon",
+      "score": 60,
+      "breakdown": {
+        "length": 10,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix"
+    },
+    {
+      "name": "silsora",
+      "score": 60,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length"
+    },
+    {
+      "name": "veloai",
+      "score": 60,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 0,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length"
+    },
+    {
+      "name": "veloa",
+      "score": 58,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 5,
+        "suffix": 0,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short ideal-length"
+    },
+    {
+      "name": "tanmiraon",
+      "score": 57,
+      "breakdown": {
+        "length": 10,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix"
+    },
+    {
+      "name": "oroai",
+      "score": 57,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 0,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length"
+    },
+    {
+      "name": "silviraon",
+      "score": 57,
+      "breakdown": {
+        "length": 10,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix"
+    },
+    {
+      "name": "tanveloon",
+      "score": 57,
+      "breakdown": {
+        "length": 10,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix"
+    },
+    {
+      "name": "vexa",
+      "score": 56,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short"
+    },
+    {
+      "name": "ororoxa",
+      "score": 55,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 5,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length"
+    },
+    {
+      "name": "oronova",
+      "score": 55,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 5,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length"
+    },
+    {
+      "name": "soraora",
+      "score": 55,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 5,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length"
+    },
+    {
+      "name": "tana",
+      "score": 53,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short"
+    },
+    {
+      "name": "sila",
+      "score": 53,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short"
+    },
+    {
+      "name": "aerfano",
+      "score": 50,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 5,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length"
+    },
+    {
+      "name": "aerora",
+      "score": 50,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 0,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length"
+    },
+    {
+      "name": "noio",
+      "score": 47,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 4,
+        "vowelRatio": 0,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix"
+    },
+    {
+      "name": "riio",
+      "score": 47,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 4,
+        "vowelRatio": 0,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix"
+    },
+    {
+      "name": "noai",
+      "score": 47,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 4,
+        "vowelRatio": 0,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix"
+    },
+    {
+      "name": "aera",
+      "score": 38,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 10,
+        "vowelRatio": 0,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short"
+    },
+    {
+      "name": "aersoraica",
+      "score": 30,
+      "breakdown": {
+        "length": 5,
+        "pronounceability": 10,
+        "vowelRatio": 5,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": ""
+    }
+  ]
+}

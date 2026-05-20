@@ -1,0 +1,70 @@
+name: Daily Domain Flipper Run
+
+on:
+  schedule:
+    # 13:00 UTC = 8:00 AM CT (Lee's morning coffee report)
+    - cron: '0 13 * * *'
+  workflow_dispatch:
+    inputs:
+      theme:
+        description: 'Theme to generate'
+        required: false
+        default: 'general'
+        type: choice
+        options:
+          - general
+          - fintech
+          - saas
+          - ai
+          - crypto
+          - ecom
+          - health
+      count:
+        description: 'Number of candidates'
+        required: false
+        default: '200'
+
+permissions:
+  contents: write
+
+jobs:
+  generate-and-check:
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        theme: [general, fintech, saas, ai]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install
+        run: npm install
+
+      - name: Run domain flipper
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GODADDY_API_KEY: ${{ secrets.GODADDY_API_KEY }}
+          GODADDY_API_SECRET: ${{ secrets.GODADDY_API_SECRET }}
+        run: node src/cli.mjs --count ${{ github.event.inputs.count || 200 }} --theme ${{ matrix.theme }}
+
+      - name: Commit reports
+        run: |
+          git config user.name "domain-flipper-bot"
+          git config user.email "bot@stackio.ai"
+          git add reports/
+          git diff --staged --quiet || git commit -m "Daily report: ${{ matrix.theme }} $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push origin main
+
+      - name: Upload as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: report-${{ matrix.theme }}-${{ github.run_number }}
+          path: reports/
+          retention-days: 30
