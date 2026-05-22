@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Domain Flipper — Dashboard</title>
+  <meta name="description" content="Live dashboard for the Domain Flipper pipeline — ranked, available, brandable .com domains.">
+  <meta name="theme-color" content="#0A0A08">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --font-body: 'DM Sans', -apple-system, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', Consolas, monospace;
+      --bg: #0A0A08;
+      --bg-elevated: #111110;
+      --bg-card: #161614;
+      --text-primary: #EDE9E3;
+      --text-secondary: #B5B0A8;
+      --text-tertiary: #827E77;
+      --text-muted: #565350;
+      --accent: #4A7C59;
+      --accent-bright: #6FAA82;
+      --accent-glow: rgba(74,124,89,0.12);
+      --border: rgba(255,255,255,0.08);
+      --border-strong: rgba(255,255,255,0.14);
+      --gold: #D4C896;
+      --red: #C26B5E;
+      color-scheme: dark;
+    }
+    *,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
+    html { font-size:16px; -webkit-font-smoothing:antialiased; }
+    body { font-family:var(--font-body); background:var(--bg); color:var(--text-primary); line-height:1.5; min-height:100vh; }
+    a { color:inherit; text-decoration:none; transition:color 160ms; }
+    a:hover { color:var(--accent-bright); }
+    .container { max-width:1200px; margin:0 auto; padding:0 2rem; }
+
+    nav { position:sticky; top:0; z-index:50; backdrop-filter:blur(12px); background:rgba(10,10,8,0.85); border-bottom:1px solid var(--border); }
+    nav .container { display:flex; align-items:center; justify-content:space-between; padding:1.1rem 2rem; }
+    .brand { font-family:var(--font-mono); font-weight:700; font-size:0.95rem; }
+    .brand span { color:var(--accent-bright); }
+    .nav-links { display:flex; gap:1.5rem; font-size:0.85rem; color:var(--text-secondary); }
+
+    header.hero { padding:3.5rem 0 2rem; }
+    .hero-eyebrow { font-family:var(--font-mono); font-size:0.72rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--accent-bright); margin-bottom:0.9rem; display:flex; align-items:center; gap:0.5rem; }
+    .hero-eyebrow::before { content:''; width:6px; height:6px; border-radius:50%; background:var(--accent-bright); animation:pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:0.3;} }
+    header.hero h1 { font-size:clamp(2rem,4vw,3rem); font-weight:300; letter-spacing:-0.02em; margin-bottom:0.5rem; }
+    header.hero p { color:var(--text-secondary); font-size:1rem; }
+
+    .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:1rem; margin:2rem 0; }
+    .stat { background:var(--bg-elevated); border:1px solid var(--border); border-radius:8px; padding:1.25rem 1.4rem; }
+    .stat .label { font-family:var(--font-mono); font-size:0.68rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--text-tertiary); margin-bottom:0.5rem; }
+    .stat .value { font-family:var(--font-mono); font-size:1.9rem; font-weight:700; color:var(--text-primary); letter-spacing:-0.02em; }
+    .stat .value.accent { color:var(--accent-bright); }
+    .stat .value.gold { color:var(--gold); }
+
+    .controls { display:flex; gap:0.75rem; flex-wrap:wrap; align-items:center; margin-bottom:1.5rem; }
+    .controls label { font-family:var(--font-mono); font-size:0.72rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--text-tertiary); }
+    select { font-family:var(--font-mono); font-size:0.85rem; background:var(--bg-card); color:var(--text-primary); border:1px solid var(--border-strong); border-radius:6px; padding:0.5rem 0.75rem; cursor:pointer; }
+    select:focus { outline:none; border-color:var(--accent); }
+    .refresh-btn { font-family:var(--font-mono); font-size:0.8rem; background:var(--accent); color:#fff; border:1px solid var(--accent); border-radius:6px; padding:0.5rem 1rem; cursor:pointer; transition:all 160ms; }
+    .refresh-btn:hover { background:var(--accent-bright); color:var(--bg); }
+    .refresh-btn:disabled { opacity:0.5; cursor:wait; }
+
+    table { width:100%; border-collapse:collapse; font-size:0.9rem; }
+    thead th { font-family:var(--font-mono); font-size:0.68rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--text-tertiary); text-align:left; padding:0.75rem 1rem; border-bottom:1px solid var(--border-strong); }
+    thead th.num { text-align:right; }
+    tbody td { padding:0.85rem 1rem; border-bottom:1px solid var(--border); }
+    tbody tr { transition:background 140ms; }
+    tbody tr:hover { background:var(--bg-elevated); }
+    td.rank { font-family:var(--font-mono); color:var(--text-muted); width:3rem; }
+    td.domain { font-family:var(--font-mono); font-weight:600; font-size:0.95rem; }
+    td.domain a:hover { color:var(--accent-bright); }
+    td.score { font-family:var(--font-mono); font-weight:700; text-align:right; }
+    td.price { font-family:var(--font-mono); text-align:right; color:var(--gold); }
+    td.theme { font-family:var(--font-mono); font-size:0.78rem; color:var(--text-tertiary); }
+    .score-pill { display:inline-block; min-width:2.6rem; text-align:center; padding:0.15rem 0.5rem; border-radius:4px; font-size:0.82rem; }
+    .score-hi { background:rgba(74,124,89,0.2); color:var(--accent-bright); }
+    .score-mid { background:rgba(212,200,150,0.15); color:var(--gold); }
+    .score-lo { background:rgba(255,255,255,0.05); color:var(--text-tertiary); }
+    .tag { display:inline-block; font-family:var(--font-mono); font-size:0.66rem; padding:0.1rem 0.4rem; background:var(--accent-glow); color:var(--accent-bright); border-radius:3px; margin-right:0.3rem; }
+
+    .panel { background:var(--bg-card); border:1px solid var(--border); border-radius:10px; overflow:hidden; }
+    .panel-head { padding:1rem 1.25rem; border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center; }
+    .panel-head h2 { font-size:1.05rem; font-weight:500; }
+    .panel-head .meta { font-family:var(--font-mono); font-size:0.74rem; color:var(--text-tertiary); }
+
+    .state { padding:4rem 2rem; text-align:center; color:var(--text-tertiary); }
+    .state .big { font-size:1.1rem; color:var(--text-secondary); margin-bottom:0.5rem; }
+    .state code { font-family:var(--font-mono); background:var(--bg-elevated); padding:0.15rem 0.4rem; border-radius:4px; font-size:0.85rem; color:var(--accent-bright); }
+    .spinner { width:24px; height:24px; border:3px solid var(--border-strong); border-top-color:var(--accent-bright); border-radius:50%; animation:spin 0.8s linear infinite; margin:0 auto 1rem; }
+    @keyframes spin { to { transform:rotate(360deg); } }
+
+    footer { padding:3rem 0; margin-top:3rem; border-top:1px solid var(--border); color:var(--text-muted); font-size:0.8rem; }
+    footer .footer-row { display:flex; justify-content:space-between; flex-wrap:wrap; gap:1rem; }
+
+    @media (max-width:768px) {
+      .container { padding:0 1.1rem; }
+      nav .container { padding:1rem 1.1rem; }
+      .nav-links { display:none; }
+      td.theme, thead th.theme-col { display:none; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="container">
+    <div class="brand">domain<span>·</span>flipper</div>
+    <div class="nav-links">
+      <a href="https://github.com/snedco/domain-flipper" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://stackio.ai" target="_blank" rel="noopener">Stackio</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <div class="hero-eyebrow">Live pipeline · auto-refreshed from GitHub</div>
+    <h1>Domain Flipper</h1>
+    <p>Brandable, available, ranked .com candidates — generated daily, scored, availability-checked.</p>
+  </div>
+</header>
+
+<main class="container">
+  <div class="stats" id="stats">
+    <div class="stat"><div class="label">Reports</div><div class="value" id="s-reports">—</div></div>
+    <div class="stat"><div class="label">Available .com</div><div class="value accent" id="s-available">—</div></div>
+    <div class="stat"><div class="label">Avg score (top)</div><div class="value gold" id="s-avgscore">—</div></div>
+    <div class="stat"><div class="label">Last run</div><div class="value" id="s-lastrun" style="font-size:1.1rem;">—</div></div>
+  </div>
+
+  <div class="controls">
+    <label for="report-select">Report</label>
+    <select id="report-select"><option>Loading…</option></select>
+    <label for="sort-select">Sort</label>
+    <select id="sort-select">
+      <option value="score">Brandability score</option>
+      <option value="name">Name (A–Z)</option>
+      <option value="price">Price</option>
+    </select>
+    <label for="filter-select">Show</label>
+    <select id="filter-select">
+      <option value="available">Available only</option>
+      <option value="all">All candidates</option>
+    </select>
+    <button class="refresh-btn" id="refresh">↻ Refresh</button>
+  </div>
+
+  <div class="panel">
+    <div class="panel-head">
+      <h2 id="panel-title">Candidates</h2>
+      <div class="meta" id="panel-meta"></div>
+    </div>
+    <div id="table-wrap">
+      <div class="state"><div class="spinner"></div><div class="big">Loading reports from GitHub…</div></div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-row">
+      <div>domain·flipper dashboard · reads live from <a href="https://github.com/snedco/domain-flipper" target="_blank" rel="noopener">snedco/domain-flipper</a></div>
+      <div>A Stackio.ai tool · Austin, TX</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+const REPO = 'snedco/domain-flipper';
+const REPORTS_API = `https://api.github.com/repos/${REPO}/contents/reports?ref=main`;
+
+let allReports = [];   // [{name, download_url}]
+let currentData = null;
+
+const $ = id => document.getElementById(id);
+
+function scoreClass(s) { return s >= 65 ? 'score-hi' : s >= 45 ? 'score-mid' : 'score-lo'; }
+
+function fmtDate(iso) {
+  if (!iso) return '—';
+  try { return new Date(iso).toLocaleString('en-US', { month:'short', day:'numeric', hour:'numeric', minute:'2-digit' }); }
+  catch { return iso; }
+}
+
+async function loadReportList() {
+  const resp = await fetch(REPORTS_API);
+  if (resp.status === 403) throw new Error('rate-limit');
+  if (!resp.ok) throw new Error('http-' + resp.status);
+  const files = await resp.json();
+  return files
+    .filter(f => f.name.endsWith('.json'))
+    .map(f => ({ name: f.name.replace('.json',''), download_url: f.download_url }))
+    .sort((a,b) => b.name.localeCompare(a.name)); // newest first
+}
+
+async function loadReport(url) {
+  const resp = await fetch(url);
+  if (!resp.ok) throw new Error('report-fetch-failed');
+  return resp.json();
+}
+
+function renderStats() {
+  $('s-reports').textContent = allReports.length;
+  if (!currentData) return;
+  const avail = (currentData.results || []).filter(r => r.available === true);
+  $('s-available').textContent = avail.length;
+  const topScores = avail.slice(0, 10).map(r => r.score);
+  const avg = topScores.length ? Math.round(topScores.reduce((a,b)=>a+b,0)/topScores.length) : 0;
+  $('s-avgscore').textContent = avg || '—';
+  $('s-lastrun').textContent = fmtDate(currentData.generated_at);
+}
+
+function renderTable() {
+  if (!currentData) return;
+  const sort = $('sort-select').value;
+  const filter = $('filter-select').value;
+  let rows = [...(currentData.results || [])];
+
+  if (filter === 'available') rows = rows.filter(r => r.available === true);
+
+  rows.sort((a,b) => {
+    if (sort === 'name') return a.name.localeCompare(b.name);
+    if (sort === 'price') return (a.price ?? 9999) - (b.price ?? 9999);
+    return b.score - a.score;
+  });
+
+  $('panel-title').textContent = `${rows.length} ${filter === 'available' ? 'available' : ''} candidate${rows.length===1?'':'s'}`;
+  $('panel-meta').textContent = `theme: ${currentData.theme || 'general'} · ${currentData.total_candidates || rows.length} generated`;
+
+  if (rows.length === 0) {
+    $('table-wrap').innerHTML = `<div class="state"><div class="big">No candidates match this filter.</div><div>Try "All candidates" or pick another report.</div></div>`;
+    return;
+  }
+
+  const body = rows.map((r,i) => {
+    const avail = r.available === true ? '✓' : r.available === false ? '✗' : '?';
+    const availColor = r.available === true ? 'var(--accent-bright)' : r.available === false ? 'var(--red)' : 'var(--text-muted)';
+    const price = r.price != null ? '$' + r.price.toFixed(2) : '—';
+    const tags = (r.notes || '').split(' ').filter(Boolean).map(t => `<span class="tag">${t}</span>`).join('');
+    return `<tr>
+      <td class="rank">${i+1}</td>
+      <td class="domain"><span style="color:${availColor}">${avail}</span> <a href="https://www.godaddy.com/domainsearch/find?domainToCheck=${r.name}.com" target="_blank" rel="noopener">${r.name}.com</a></td>
+      <td class="score"><span class="score-pill ${scoreClass(r.score)}">${r.score}</span></td>
+      <td class="theme theme-col">${tags || '—'}</td>
+      <td class="price">${price}</td>
+    </tr>`;
+  }).join('');
+
+  $('table-wrap').innerHTML = `<table>
+    <thead><tr>
+      <th class="num">#</th><th>Domain</th><th class="num">Score</th><th class="theme-col">Signals</th><th class="num">Price</th>
+    </tr></thead>
+    <tbody>${body}</tbody>
+  </table>`;
+}
+
+function showRateLimit() {
+  $('table-wrap').innerHTML = `<div class="state">
+    <div class="big">GitHub API rate-limited</div>
+    <div>The dashboard reads live from GitHub's public API (60 requests/hour, unauthenticated).</div>
+    <div style="margin-top:1rem;">Wait a few minutes and hit <code>↻ Refresh</code>, or view raw reports in the <a href="https://github.com/${REPO}/tree/main/reports" target="_blank" rel="noopener" style="color:var(--accent-bright)">repo</a>.</div>
+  </div>`;
+}
+
+function showEmpty() {
+  $('table-wrap').innerHTML = `<div class="state">
+    <div class="big">No reports yet</div>
+    <div>The daily GitHub Action hasn't produced reports, or they aren't committed yet.</div>
+    <div style="margin-top:1rem;">Run locally: <code>node src/cli.mjs --count 200</code></div>
+  </div>`;
+}
+
+async function init() {
+  $('refresh').disabled = true;
+  try {
+    allReports = await loadReportList();
+    if (allReports.length === 0) { showEmpty(); renderStats(); return; }
+
+    const sel = $('report-select');
+    sel.innerHTML = allReports.map(r => `<option value="${r.download_url}">${r.name}</option>`).join('');
+
+    currentData = await loadReport(allReports[0].download_url);
+    // If the newest report has no availability data, default to showing all
+    const hasAvail = (currentData.results || []).some(r => r.available === true);
+    if (!hasAvail) $('filter-select').value = 'all';
+    renderStats();
+    renderTable();
+  } catch (e) {
+    if (e.message === 'rate-limit') showRateLimit();
+    else { $('table-wrap').innerHTML = `<div class="state"><div class="big">Couldn't load reports</div><div>${e.message}</div></div>`; }
+  } finally {
+    $('refresh').disabled = false;
+  }
+}
+
+$('report-select').addEventListener('change', async (e) => {
+  $('table-wrap').innerHTML = `<div class="state"><div class="spinner"></div><div class="big">Loading…</div></div>`;
+  try {
+    currentData = await loadReport(e.target.value);
+    renderStats();
+    renderTable();
+  } catch (err) {
+    $('table-wrap').innerHTML = `<div class="state"><div class="big">Couldn't load that report</div></div>`;
+  }
+});
+$('sort-select').addEventListener('change', renderTable);
+$('filter-select').addEventListener('change', renderTable);
+$('refresh').addEventListener('click', init);
+
+init();
+</script>
+
+</body>
+</html>

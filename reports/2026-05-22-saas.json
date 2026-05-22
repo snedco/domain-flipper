@@ -1,0 +1,916 @@
+{
+  "generated_at": "2026-05-22T01:14:32.482Z",
+  "theme": "saas",
+  "total_candidates": 50,
+  "available": 8,
+  "results": [
+    {
+      "name": "nexly",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "nexos",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "pulsely",
+      "score": 72,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "forgely",
+      "score": 72,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": null,
+      "error": "EAI_AGAIN"
+    },
+    {
+      "name": "hubly",
+      "score": 70,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 3,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "hubos",
+      "score": 70,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 3,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "nexio",
+      "score": 70,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 5,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length",
+      "available": true,
+      "source": "dns",
+      "confidence": "low"
+    },
+    {
+      "name": "flowai",
+      "score": 67,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "pulseos",
+      "score": 67,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": true,
+      "source": "dns",
+      "confidence": "low"
+    },
+    {
+      "name": "syncos",
+      "score": 67,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 5,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "dashai",
+      "score": 67,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": true,
+      "source": "dns",
+      "confidence": "low"
+    },
+    {
+      "name": "fluxai",
+      "score": 67,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": null,
+      "error": "EAI_AGAIN"
+    },
+    {
+      "name": "stackio",
+      "score": 67,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "deskos",
+      "score": 67,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 5,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "deskai",
+      "score": 67,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "deskio",
+      "score": 67,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "useos",
+      "score": 67,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 5,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "usely",
+      "score": 67,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 5,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "dashos",
+      "score": 67,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 5,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "syncai",
+      "score": 67,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "usehubos",
+      "score": 65,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix",
+      "available": true,
+      "source": "dns",
+      "confidence": "low"
+    },
+    {
+      "name": "hubio",
+      "score": 65,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 5,
+        "suffix": 12,
+        "start": 3,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "coly",
+      "score": 65,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "pulseio",
+      "score": 62,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 5,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "flowly",
+      "score": 62,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 5,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "fluxly",
+      "score": 62,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 5,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": true,
+      "source": "dns",
+      "confidence": "low"
+    },
+    {
+      "name": "pulseai",
+      "score": 62,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 5,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "usedesk",
+      "score": 60,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "coforge",
+      "score": 60,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "cohub",
+      "score": 60,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "usehub",
+      "score": 60,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "oply",
+      "score": 60,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 10,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "appos",
+      "score": 59,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": -8,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length",
+      "available": true,
+      "source": "dns",
+      "confidence": "low"
+    },
+    {
+      "name": "usedeskos",
+      "score": 57,
+      "breakdown": {
+        "length": 10,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix",
+      "available": true,
+      "source": "dns",
+      "confidence": "low"
+    },
+    {
+      "name": "nexpulse",
+      "score": 56,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "nexforge",
+      "score": 56,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "usecraft",
+      "score": 53,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "nexdesk",
+      "score": 53,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 5,
+        "suffix": 0,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "useforge",
+      "score": 53,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "usestack",
+      "score": 53,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "",
+      "available": null,
+      "error": "EAI_AGAIN"
+    },
+    {
+      "name": "deskly",
+      "score": 52,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 5,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": -10,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "hard-to-say modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "syncly",
+      "score": 52,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 5,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": -10,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "hard-to-say modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "pulsehq",
+      "score": 50,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 5,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "opdesk",
+      "score": 50,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 5,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "fluxhub",
+      "score": 50,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 5,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length",
+      "available": true,
+      "source": "dns",
+      "confidence": "low"
+    },
+    {
+      "name": "costack",
+      "score": 50,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 5,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length",
+      "available": null,
+      "error": "EAI_AGAIN"
+    },
+    {
+      "name": "forgehq",
+      "score": 50,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 5,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "cocraft",
+      "score": 50,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 10,
+        "vowelRatio": 5,
+        "suffix": 0,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "opai",
+      "score": 50,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 10,
+        "vowelRatio": 0,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "opio",
+      "score": 50,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 10,
+        "vowelRatio": 0,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix",
+      "available": false,
+      "source": "dns"
+    }
+  ]
+}
