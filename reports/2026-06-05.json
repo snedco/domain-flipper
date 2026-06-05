@@ -1,0 +1,920 @@
+{
+  "generated_at": "2026-06-05T16:39:07.212Z",
+  "theme": "general",
+  "total_candidates": 50,
+  "available": 12,
+  "results": [
+    {
+      "name": "roxaix",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": true,
+      "source": "dns",
+      "confidence": "low"
+    },
+    {
+      "name": "nerus",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "viraix",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "roxaly",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "kinaly",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "veloix",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": true,
+      "source": "dns",
+      "confidence": "low"
+    },
+    {
+      "name": "novaon",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "viraly",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "novaus",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "vanaus",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "neron",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "viraus",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "miraon",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "vanaon",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": true,
+      "source": "dns",
+      "confidence": "low"
+    },
+    {
+      "name": "kalon",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "viraon",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": null,
+      "error": "EAI_AGAIN"
+    },
+    {
+      "name": "vanaix",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": true,
+      "source": "dns",
+      "confidence": "low"
+    },
+    {
+      "name": "nerix",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "velous",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "miraly",
+      "score": 75,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": null,
+      "error": "EAI_AGAIN"
+    },
+    {
+      "name": "tanix",
+      "score": 72,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "fanous",
+      "score": 72,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "tanus",
+      "score": 72,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "parily",
+      "score": 72,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "soraix",
+      "score": 72,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "parius",
+      "score": 72,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "fanoly",
+      "score": 72,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "silix",
+      "score": 72,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "soraon",
+      "score": 72,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "soraly",
+      "score": 72,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "kalio",
+      "score": 70,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 5,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "kalai",
+      "score": 70,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 5,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length",
+      "available": true,
+      "source": "dns",
+      "confidence": "low"
+    },
+    {
+      "name": "riparion",
+      "score": 68,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "rinovaly",
+      "score": 68,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix",
+      "available": true,
+      "source": "dns",
+      "confidence": "low"
+    },
+    {
+      "name": "moly",
+      "score": 68,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "zoly",
+      "score": 68,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "lunovaly",
+      "score": 68,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix",
+      "available": true,
+      "source": "dns",
+      "confidence": "low"
+    },
+    {
+      "name": "luvanaly",
+      "score": 68,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix",
+      "available": true,
+      "source": "dns",
+      "confidence": "low"
+    },
+    {
+      "name": "noparion",
+      "score": 68,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix",
+      "available": true,
+      "source": "dns",
+      "confidence": "low"
+    },
+    {
+      "name": "zokinaix",
+      "score": 68,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix",
+      "available": true,
+      "source": "dns",
+      "confidence": "low"
+    },
+    {
+      "name": "noveloon",
+      "score": 68,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "moparius",
+      "score": 68,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "modern-suffix",
+      "available": true,
+      "source": "dns",
+      "confidence": "low"
+    },
+    {
+      "name": "rily",
+      "score": 68,
+      "breakdown": {
+        "length": 18,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 12,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix",
+      "available": null,
+      "error": "EAI_AGAIN"
+    },
+    {
+      "name": "aerus",
+      "score": 67,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 5,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "aeron",
+      "score": 67,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 5,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "orous",
+      "score": 67,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 5,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "oroly",
+      "score": 67,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 5,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "silio",
+      "score": 67,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 5,
+        "suffix": 12,
+        "start": 5,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "short modern-suffix ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "zovana",
+      "score": 63,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length",
+      "available": false,
+      "source": "dns"
+    },
+    {
+      "name": "roxais",
+      "score": 63,
+      "breakdown": {
+        "length": 25,
+        "pronounceability": 15,
+        "vowelRatio": 10,
+        "suffix": 0,
+        "start": 8,
+        "uniqueness": 5,
+        "clusters": 0,
+        "trademark": 0,
+        "doubles": 0
+      },
+      "notes": "ideal-length",
+      "available": true,
+      "source": "dns",
+      "confidence": "low"
+    }
+  ]
+}
